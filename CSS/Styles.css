@@ -56,7 +56,7 @@
 }
 
 .texto-principal p {
-    color: #555;
+    color: #555555;
     margin: 15px 0;
 }
 
@@ -147,7 +147,7 @@
 }
 .stat p { 
     margin:4px 0 0; 
-    color:#94a3b8; 
+    color:#555555; 
     font-size:13px; 
 }
 .cabezal{
@@ -155,7 +155,7 @@
 }
 .nuestros-servicios{
     margin-top: 60px;
-    background: linear-gradient(to right, #fefefe, #fdeef4);
+    background: linear-gradient(to right, #faefef, #f8e8ee);
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 14px;
@@ -228,7 +228,7 @@
 .consultar{
     margin-top: 56px;
     border-radius: 20px;
-    background: linear-gradient(to right, #fadddd, #fdeef4);
+    background: linear-gradient(to right, #faefef, #f8e8ee);
     padding: 28px;
 }
 .consultar h3{
@@ -438,7 +438,7 @@ label {
         
 input, textarea {
     padding: 12px 15px;
-    border: 2px solid #e9ecef;
+    border: 2px solid #6c757d;
     border-radius: 8px;
     font-size: 14px;
     transition: all 0.3s ease;
@@ -473,8 +473,7 @@ textarea {
 }
         
 .submit-btn:hover {
-    background: linear-gradient(45deg, #d50000, #c2185b);
-    transform: translateY(-2px);
+    filter: brightness(0.85);
     box-shadow: 0 6px 20px rgba(255, 23, 68, 0.3);
 }
 form a{
@@ -508,7 +507,7 @@ form a{
     margin-right: 6px;
 }
 .info .card{
-    color: red !important;
+    color: #FF0000 !important;
 }
 .logo img{
     height: 35px;
@@ -549,7 +548,7 @@ footer {
 
 .contenido .logo-text p {
     font-size: 0.65rem;
-    color: #bbb;
+    color: #ccc;
     margin-bottom: 2px;
 }
 
@@ -617,7 +616,7 @@ footer {
 }
 
 .contenido .horas {
-    color: #bbb;
+    color: #ccc;
     margin: 2px;
     font-size: 0.75rem;
 }
