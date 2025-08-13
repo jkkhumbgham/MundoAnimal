@@ -666,3 +666,7 @@ footer {
 .personalizado{
     background-color: #0d111b !important;
 }
+.map{
+    height: 220px;
+    margin-top: 15px;
+}
