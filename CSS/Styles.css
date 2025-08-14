@@ -1,6 +1,12 @@
- body { 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body { 
     font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; 
     margin: 0px; 
+    overflow-x: hidden;
 }
 .btn-llamar {
     background: linear-gradient(90deg, #ff4e50,  #F72585);
@@ -665,8 +671,14 @@ footer {
 }
 .personalizado{
     background-color: #0d111b !important;
+    width: 100% !important;
 }
 .map{
     height: 220px;
     margin-top: 15px;
+}
+.logo-principal{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
 }
