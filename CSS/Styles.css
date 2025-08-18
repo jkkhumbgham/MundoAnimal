@@ -682,3 +682,56 @@ footer {
     width: 50px;
     border-radius: 20px;
 }
+
+
+
+
+/*Estilo tabla animales*/
+#main_tabla {
+    padding-top: 108px;
+}
+
+h1 {   
+  text-align: center;
+  color: black;
+  margin-bottom: 17px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+#animales_tabla {
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+#animales_tabla th, 
+#animales_tabla td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+
+}
+
+#animales_tabla th {
+  background-color: #F72585;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-right: none;
+}
+
+#animales_tabla tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#animales_tabla tr:hover {
+  background-color: #ebdfdf;
+}
